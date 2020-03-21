@@ -1,0 +1,4 @@
+TARGETTYPE=DRIVER
+LINKER_FLAGS=/integritycheck
+TARGETNAME=ProcessCallback
+SOURCES=ProcessCallback.c

@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="header files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="makefile">
+      <UniqueIdentifier>{4e4433e9-2943-41e4-a2d6-cff28f995610}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="conn_state.c">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="disp_conn.c">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="disp_dg.c">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="disp_ev.c">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="disp_obj.c">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="disp_sr.c">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="dispatch.c">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="ev_conn.c">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="ev_dg.c">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="ev_recv.c">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="events.c">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="filter.c">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="ipc.c">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="memtrack.c">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_tbl.c">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="packet.c">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="pid_pname.c">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="sids.c">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="sock.c">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="tdi_fw.c">
+      <Filter>source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="conn_state.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="dispatch.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="events.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="filter.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ipc.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="memtrack.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ndis_hk_ioctl.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="net.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_tbl.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="packet.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="pid_pname.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="sids.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="sock.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="tdi_fw.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="tdi_fw_lib.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile">
+      <Filter>makefile</Filter>
+    </None>
+    <None Include="my_build.bat">
+      <Filter>makefile</Filter>
+    </None>
+    <None Include="my_clean.bat">
+      <Filter>makefile</Filter>
+    </None>
+    <None Include="Sources">
+      <Filter>makefile</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt">
+      <Filter>makefile</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

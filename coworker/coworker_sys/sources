@@ -1,0 +1,11 @@
+TARGETNAME=coworker_sys
+TARGETPATH=obj
+TARGETTYPE=DRIVER
+INCLUDES=$(INCLUDES);$(IFSKIT_INC_PATH);..\inc
+SOURCES=coworker_sys.c
+LINK_LIB_IGNORE=4210
+
+C_DEFINES = /D_TWCN_WD_ 
+
+TARGETLIBS=$(DDK_LIB_PATH)\wdmsec.lib \
+		   $(DDK_LIB_PATH)\ntstrsafe.lib

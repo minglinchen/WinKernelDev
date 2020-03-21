@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="fat_headers">
+      <UniqueIdentifier>{a7f15f9a-a7b5-4b6f-9c9e-48a5b538269f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cf_create.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cf_file_irp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cf_list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cf_modify_irp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cf_proc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cf_sfilter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="my_build.bat">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="my_clean.bat">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="makefile" />
+    <None Include="sources" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cf_create.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cf_file_irp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cf_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cf_modify_irp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cf_proc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fat_headers\fat.h">
+      <Filter>fat_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="fat_headers\fatstruc.h">
+      <Filter>fat_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="fat_headers\lfn.h">
+      <Filter>fat_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="fat_headers\nodetype.h">
+      <Filter>fat_headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+  </ItemGroup>
+</Project>

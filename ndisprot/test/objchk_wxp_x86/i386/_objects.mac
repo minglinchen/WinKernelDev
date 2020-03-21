@@ -1,0 +1,16 @@
+
+
+386_OBJECTS=\
+ $(OBJ_PATH)\$O\uiotest.obj \
+
+
+
+
+
+# lowercased
+BASEDIR=c:\winddk\7600.16385.1
+OBJECT_ROOT=c:\winddk\7600.16385.1
+MAKEDIR_LOWERCASE=e:\source\ndisprot\test
+OBJ_PATH=e:\source\ndisprot\test
+CONCURRENT_MIDL=0
+CONCURRENT_MANIFEST_BUILD=0

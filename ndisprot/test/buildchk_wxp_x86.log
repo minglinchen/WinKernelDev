@@ -1,0 +1,6 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining e:\source\ndisprot\test directory for files to compile.
+oacr invalidate root:x86chk /autocleanqueue
+1>Compiling and Linking e:\source\ndisprot\test *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+1>BUILDMSG: _NT_TARGET_VERSION SET TO WINXP

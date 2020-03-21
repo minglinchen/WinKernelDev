@@ -1,0 +1,7 @@
+1>warnings in directory e:\source\ndisprot
+1>e:\source\ndisprot\recv.c(683) : warning C4995: 'MmGetSystemAddressForMdl': name was marked as #pragma deprecated
+1>e:\source\ndisprot\recv.c(683) : warning C4996: 'MmMapLockedPages': was declared deprecated
+1>e:\source\ndisprot\recv.c(994) : warning C4995: 'MmGetSystemAddressForMdl': name was marked as #pragma deprecated
+1>e:\source\ndisprot\recv.c(994) : warning C4996: 'MmMapLockedPages': was declared deprecated
+1>e:\source\ndisprot\send.c(387) : warning C4995: 'MmGetSystemAddressForMdl': name was marked as #pragma deprecated
+1>e:\source\ndisprot\send.c(387) : warning C4996: 'MmMapLockedPages': was declared deprecated

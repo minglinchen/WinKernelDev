@@ -1,0 +1,33 @@
+!IF 0
+
+Copyright (C) Microsoft Corporation, 1997 - 1999
+
+Module Name:
+
+    sources.
+
+!ENDIF
+
+TARGETNAME=ssdt_hook
+TARGETPATH=obj
+TARGETTYPE=LIBRARY
+LINK_LIB_IGNORE=4210
+
+LIB_POST_FIX=WNET
+
+!if "$(DDK_TARGET_OS)"=="WinXP"
+LIB_POST_FIX=WXP
+!endif
+
+!if "$(DDK_TARGET_OS)"=="Win2K"
+LIB_POST_FIX=W2K
+!endif
+
+C_DEFINES = /D_TWCN_WD_ 
+!if "$(_BUILDARCH)"=="AMD64"
+C_DEFINES = /DCNTR64 /D_TWCN_WD_ 
+!endif
+
+INCLUDES=$(INCLUDES);$(IFSKIT_INC_PATH);..\inc;..\..\inc;..\..\..\indep\inc
+
+SOURCES =sh_ssdt_hook.c

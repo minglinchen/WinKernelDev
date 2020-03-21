@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{29795418-be3b-406d-a5bb-21cb7e0b266b}</UniqueIdentifier>
+      <Extensions>.c;.cpp</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7cde8aa1-d15e-4c84-9fab-50d4f616c029}</UniqueIdentifier>
+      <Extensions>.h</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{349ba61c-d06a-461c-bd8f-040058e1caec}</UniqueIdentifier>
+      <Extensions>.rc</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="analysispacket.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="miniport.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="passthru.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="passthru.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="precomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="passthru.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sources" />
+  </ItemGroup>
+</Project>

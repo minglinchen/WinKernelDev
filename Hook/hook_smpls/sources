@@ -1,0 +1,51 @@
+!IF 0
+
+Copyright (C) Microsoft Corporation, 1997 - 1999
+
+Module Name:
+
+    sources.
+
+!ENDIF
+
+TARGETNAME=hook_smpls
+TARGETPATH=obj
+TARGETTYPE=DRIVER
+LINK_LIB_IGNORE=4210
+
+LIB_POST_FIX=WNET
+
+!if "$(DDK_TARGET_OS)"=="WinXP"
+LIB_POST_FIX=WXP
+!endif
+
+!if "$(DDK_TARGET_OS)"=="Win2K"
+LIB_POST_FIX=W2K
+!endif
+
+C_DEFINES = /D_TWCN_WD_ 
+!if "$(_BUILDARCH)"=="AMD64"
+C_DEFINES = /DCNTR64 /D_TWCN_WD_ 
+!endif
+
+INCLUDES=$(INCLUDES);$(IFSKIT_INC_PATH);..\inc;..\..\inc;..\..\..\indep\inc
+
+SOURCES =hs_main.c
+
+LIB_POST_FIX=WNET
+
+!if "$(DDK_TARGET_OS)"=="WinXP"
+LIB_POST_FIX=WXP
+!endif
+
+!if "$(DDK_TARGET_OS)"=="Win2K"
+LIB_POST_FIX=W2K
+!endif
+
+LIB_ARCH=
+!if "$(_BUILDARCH)"=="AMD64"
+LIB_ARCH=_AMD64
+!endif
+
+TARGETLIBS=	..\lib\ssdt_hook_$(DDKBUILDENV)_$(LIB_POST_FIX)$(LIB_ARCH).lib \
+			..\lib\xtbl_hook_$(DDKBUILDENV)_$(LIB_POST_FIX)$(LIB_ARCH).lib
